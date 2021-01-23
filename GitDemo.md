@@ -13,6 +13,11 @@ git config --global color.ui auto
 git init
 ```
 1. Show the directories created inside the working directory. Git will track the code and store relevant info inside those directories.
+```shell
+ls -la .
+```
+---
+## Part 1.1: Commiting changes
 1. Create a simple file. For example, let's assume it contains a numpy array x, and a numpy function like np.sin as y. Save the file and return to the shell.
 1. Verify what the tracking part is doing.
 ```shell
@@ -55,9 +60,14 @@ git status
 ```shell
 git log
 ```
+---
+## Part 1.2: Advanced commands during the commit process
+
+Sometimes there is a need to change what your are commiting. Git allows you to change the status of your added items.
 
 ---
-## Part 1.5: Hosting
+## Part 1.3: Hosting (with github)
+
 
 ---
 ## Part 2: Collaborative workflow with Branches
